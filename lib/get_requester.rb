@@ -18,7 +18,10 @@ class GetRequester #define constant class
   end
 
   def parse_json
-
+    information = JSON.parse(self.get_response_body)
+    information.collect do |info|
+      info
+    end
   end
 
 end
