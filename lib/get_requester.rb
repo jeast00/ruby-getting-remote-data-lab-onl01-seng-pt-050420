@@ -4,7 +4,7 @@
 
 class GetRequester #define constant class
 
-  def initialize(url)
+  def initialize(url) #define an 'initialize' method passing in a URL
 
   end
 
