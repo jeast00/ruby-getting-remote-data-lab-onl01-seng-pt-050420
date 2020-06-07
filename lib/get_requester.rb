@@ -2,17 +2,14 @@
 require 'net/http'
 require 'open-uri'
 
+attr_accessor :url
+
 
 class GetRequester #define constant class
 
   def initialize(url) #define an 'initialize' method passing in a URL
     @url = url
   end
-
-  def url
-    @url
-  end
-
 
   # Setting up the GET request
   def get_response_body
