@@ -1,11 +1,16 @@
 # Write your code here
-
+require 'net/http'
+require ''
 
 
 class GetRequester #define constant class
 
   def initialize(url) #define an 'initialize' method passing in a URL
+    @url = url
+  end
 
+  def url
+    @url
   end
 
 
