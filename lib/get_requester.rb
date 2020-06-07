@@ -8,7 +8,6 @@ class GetRequester #define constant class
   attr_accessor :url
 
   def initialize(url) #define an 'initialize' method passing in a URL
-    @url = url
   end
 
   # Setting up the GET request
