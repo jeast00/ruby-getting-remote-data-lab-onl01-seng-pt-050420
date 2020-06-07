@@ -2,7 +2,7 @@
 
 
 
-class GetRequester
+class GetRequester #define constant class
 
   def initialize(url)
 
