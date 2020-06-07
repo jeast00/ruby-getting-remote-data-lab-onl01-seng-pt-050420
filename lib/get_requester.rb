@@ -17,4 +17,8 @@ class GetRequester #define constant class
     response.body #return the 'body' from the 'response' variable
   end
 
+  def parse_json
+
+  end
+
 end
