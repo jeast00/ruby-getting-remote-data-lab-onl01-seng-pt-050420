@@ -18,8 +18,9 @@ class GetRequester #define constant class
     response.body #return the 'body' from the 'response' variable
   end
 
-  def parse_json
-    information = JSON.parse(self.get_response_body)
+  def parse_json #Method to parse JSON from 'get_response_body' method
+    information = JSON.parse(self.get_response_body) #converts JSON returned from 'get_response_body' into Ruby data structures
+    # Use an iterator on the 'information' variable and return the array (or hash, if preferrable)
     information.collect do |info|
       info
     end
