@@ -1,6 +1,6 @@
 # Write your code here
 require 'net/http'
-require ''
+require 'open-uri'
 
 
 class GetRequester #define constant class
